@@ -8,7 +8,7 @@ module.exports = {
     cooldown: 8,
     async execute(api, event, args, commands) {
         if (args.length === 0) {
-            api.sendMessage("Please provide a question.", event.threadID, event.messageID);
+            api.sendMessage("☺ Hello! I'm 𝗡𝗼𝘃𝗮 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁, your friendly AI assistant. How can I assist you today?", event.threadID, event.messageID);
             api.setMessageReaction(':heart:', event.messageID);
             return;
         }
